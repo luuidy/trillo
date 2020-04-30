@@ -21,6 +21,17 @@
   background-color: orange;
   flex: 1; }
 
+.logo {
+  height: 3rem; }
+
+.user-nav__icon-box {
+  height: 2rem;
+  width: 2rem; }
+
+.user-nav__user-photo {
+  height: 3rem;
+  border-radius: 50%; }
+
 :root {
   --color-primary: #2f96eb;
   --color-primary-light: rgb(51, 190, 255);
