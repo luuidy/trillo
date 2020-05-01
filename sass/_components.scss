@@ -114,4 +114,27 @@
 }
 
 
-/////////////////// USER NAVIGATION
+/////////////////// SIDE Navigation
+.side-nav{
+    &__item{
+
+    }
+
+    &__link{
+
+    }
+
+    &__icon{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+}
+
+/////////////////// LEGAL TEXT
+.legal{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2.5rem;
+    color: var(--color-grey-light-4);
+}
+
