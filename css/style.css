@@ -30,7 +30,10 @@
   flex: 1; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   height: 3rem;
@@ -213,8 +216,14 @@
   display: inline-block;
   background-color: transparent;
   transition: all .2s; }
+  .btn-inline span {
+    margin-left: 3px;
+    font-size: 1.4rem;
+    transition: margin-left .2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1); }
+    .btn-inline:hover span {
+      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulsate 1s infinite; }
@@ -318,6 +327,9 @@
     color: var(--color-primary);
     font-size: 2.5rem;
     font-weight: 200; }
+
+.ul-font-medium {
+  font-size: 1.2rem; }
 
 :root {
   --color-primary: #2f96eb;

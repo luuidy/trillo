@@ -272,8 +272,18 @@
     background-color: transparent;
     transition: all .2s;
 
+    span{
+        margin-left: 3px;
+        font-size: 1.4rem;
+        transition: margin-left .2s;
+    }
+
     &:hover{
         color: var(--color-grey-dark-1);
+
+        span{
+            margin-left: 8px;
+        }
     }
 
     &:focus{
@@ -436,5 +446,8 @@
     }
 }
 
+.ul-font-medium{
+    font-size: 1.2rem;
+}
 
 
